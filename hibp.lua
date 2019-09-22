@@ -1,11 +1,11 @@
--- Description: check email addresses for known password leaks
+-- Description: check email addresses for pw leaks using v3 of hibp api
 -- Version: 0.2.0
 -- Keyring-Access: hibp
 -- Source: emails
 -- License: GPL-3.0
--- initial work by raa/rickmer, just made it work for hibp v3
 
 function run(emailaddress)
+    -- initial work by rickmer, just made it work for hibp v3
 
     API_URL = 'https://haveibeenpwned.com/api/v3/breachedaccount/'
 
